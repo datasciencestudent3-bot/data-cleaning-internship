@@ -1,0 +1,7 @@
+import re
+
+
+
+text = "Order ID is 45678"
+result = re.search(r"\d+", text)
+print(result.group())
